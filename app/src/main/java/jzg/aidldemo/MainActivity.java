@@ -43,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
             attemptToBindService();
             Toast.makeText(this, "当前与服务端处于未连接状态，正在尝试重连，请稍后再试", Toast.LENGTH_SHORT).show();
             Log.i("Branch","branch");
+
             return;
         }
         if (mBookManager == null) return;
